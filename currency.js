@@ -16,7 +16,7 @@ async function getExchangeRate() {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "currency-exchange.p.rapidapi.com",
-            "x-rapidapi-key": "1f6aba5149msha00241a4cbf041fp12ab4ajsn0544aef4b5de"
+            "x-rapidapi-key": //ADD YOUR API KEY HERE
         }
     })
         .then(response => response.json())
