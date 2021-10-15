@@ -1,0 +1,96 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    font-size: 25px;
+    display: inline-block;
+    color: #1C3041; 
+    margin-left: 600px;
+}
+
+i{
+    font-size: 25px;
+    display: inline-block;
+    color: #1C3041; 
+}
+
+h4{
+font-size: 20px;
+text-align: center;
+margin-top: 80px;
+margin-left: 40%;
+color: #1C3041;
+}
+
+h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+form label{
+    color: white;
+    margin-left: 120px;
+}
+.row{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+
+#currencySearch{
+    height: 210px;
+    width: 30%;
+    display: block;
+    overflow: hidden;
+    margin-left: 20%;
+    background-color: #1C3041; 
+    border-radius: 10px;
+    border: 2px solid  #1C3041;
+    margin-top: 100px;
+}
+
+#exchangeResult{
+    height: 210px;
+    width: 30%;
+    display: inline-flex;
+    overflow: hidden;
+    border: 2px solid  #2FE6DE;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+#currencyFrom, #currencyTo{
+    display: block;
+    padding: 8px;
+    width: 150px;
+    margin-left: 120px;
+    border-radius: 50px;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+}
+
+#buttonCurrency{
+    display: block;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 120px;
+    border-radius: 50px;
+    border: none;
+    color: #1C3041;
+    outline: none;
+}
+
+#buttonCurrency:hover{
+    box-shadow: 1px 2px 4px 4px #2FE6DE;
+    cursor: pointer;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 70px;
+}
